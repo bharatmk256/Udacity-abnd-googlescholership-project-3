@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    //Question 1 strings
+    <string name="question_1">Q.1</string>
+    <string name="Q_1">Online Learning Sites</string>
+    //Question 1 ans options
+    <string name="Q_1_Udacity">Udacity</string>
+    <string name="Q_1_Edx">Edx</string>
+    <string name="Q_1_Twitter">Twitter</string>
+    <string name="Q_1_Pluralsight">Pluralsight</string>
+    //Question 2 strings
+    <string name="question_2">Q.2</string>
+    <string name="Q_2">Programing Languages</string>
+    //Question 2 ans options
+    <string name="Q_2_Windows">Windows</string>
+    <string name="Q_2_Linux">Linux</string>
+    <string name="Q_2_Java">Java</string>
+    <string name="Q_2_Linkedin">Linkedin</string>
+    //Question 3 Strings
+    <string name="question_3">Q.3</string>
+    <string name="Q_3">Operating System</string>
+    //Question 3 ans options
+    <string name="Q_3_Kotlin">Kotlin</string>
+    <string name="Q_3_Python">Python</string>
+    <string name="Q_3_Android">Android</string>
+    <string name="Q_3_HTML">HTML</string>
+    //Question 4 Strings
+    <string name="question_4">Q.4</string>
+    <string name="Q_4">Identify This Face</string>
+    //Question 4 ans options
+    <string name="Q_4_Thanos">Thanos</string>
+    <string name="Q_4_Akshay_Kumar">Akshay Kumar</string>
+    <string name="Q_4_Sanjay_Dutt">Sanjay Dutt</string>
+    <string name="Q_4_Ranbir_Kapoor">Ranbir Kapoor</string>
+    //Question 5 Strings
+    <string name="question_5">Q.5</string>
+    <string name="Q_5">Name Of Search Engine Starts From G</string>
+    //Question 5 ans hint
+    <string name="Q_5_Google">SearchEngine??</string>
+</resources>

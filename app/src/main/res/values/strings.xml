@@ -37,4 +37,8 @@
     <string name="Q_5">Name Of Search Engine Starts From G</string>
     //Question 5 ans hint
     <string name="Q_5_Google">SearchEngine??</string>
+    //Ans Button
+    <string name="Ans">Score</string>
+    //Score
+    <string name="Score">0</string>
 </resources>

@@ -239,6 +239,7 @@
                 android:id="@+id/EditText_Q5"
                 style="@style/StringLayout"
                 android:layout_width="150dp"
+                android:inputType="text"
                 android:hint="@string/Q_5_Google" />
         </LinearLayout>
         <Button

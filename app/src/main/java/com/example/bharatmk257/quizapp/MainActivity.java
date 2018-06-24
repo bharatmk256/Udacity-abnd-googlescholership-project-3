@@ -3,19 +3,16 @@ package com.example.bharatmk257.quizapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int score = 0;
-    String won;
+    int score;
     int score1, score2, score3, score4, score5;
 
     @Override
@@ -123,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
         CheckBox CheckBoxFour = (CheckBox) findViewById(R.id.checkbox_4);
         boolean hasChecked4 = CheckBoxFour.isChecked();
 
-        if (hasChecked1 && hasChecked2 && hasChecked4) {
+        if (hasChecked1 && hasChecked2 && hasChecked4 && !hasChecked3) {
             score1 = 20;
         } else score1 = 0;
 
@@ -134,17 +131,17 @@ public class MainActivity extends AppCompatActivity {
 
         if (ansFive.toLowerCase().equals("google")) {
             score5 = 20;
-        } else score5 = 0;
-
-        if (score == 100){
-            won = "Yey You Won Score Is " + score;
-        }else {
-            won = "Please Check Again Your Ans Score Is " + score;
         }
 
         //SCORING FINAL
         score = score1 + score2 + score3 + score4 + score5;
-        Toast.makeText(getApplicationContext(), won, Toast.LENGTH_SHORT).show();
+
+        if (score == 100){
+        Toast.makeText(getApplicationContext(),"Yey You Won Score = " + score , Toast.LENGTH_SHORT).show();
+        }else{
+            Toast.makeText(getApplicationContext(),"Check Your Ans Score = " + score , Toast.LENGTH_SHORT).show();
+        }
+
         displayScore(score);
 
     }
